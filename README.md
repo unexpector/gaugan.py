@@ -1,8 +1,8 @@
 # gaugan.py 
 
 [![](https://img.shields.io/pypi/v/gaugan?style=plastic)](https://pypi.org/project/gaugan/)
-[![](https://img.shields.io/pypi/l/gaugan?style=plastic)](https://pypi.org/project/gaugan/)
-[![](https://img.shields.io/pypi/pyversions/gaugan?style=plastic)](https://pypi.org/project/gaugan/)
+[![](https://img.shields.io/pypi/l/gaugan?style=plastic)](https://unlicense.org/)
+[![](https://img.shields.io/pypi/pyversions/gaugan?style=plastic)](https://www.python.org/downloads/)
 
 A Python package providing an interface to NVIDIA's gauGAN project (http://nvidia-research-mingyuliu.com/gaugan/), which turns crude drawings into realistic images using AI.
 
