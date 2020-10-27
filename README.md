@@ -1,6 +1,6 @@
 # gaugan.py 
 
-[![](https://img.shields.io/pypi/v/gaugan?style=plastic)](https://pypi.org/project/gaugan//)
+[![](https://img.shields.io/pypi/v/gaugan?style=plastic)](https://pypi.org/project/gaugan/)
 [![](https://img.shields.io/pypi/l/gaugan?style=plastic)](https://pypi.org/project/gaugan/)
 [![](https://img.shields.io/pypi/pyversions/gaugan?style=plastic)](https://pypi.org/project/gaugan/)
 
