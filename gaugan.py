@@ -14,12 +14,14 @@ def getUrl():
 	return urls[0]
 
 url = getUrl()
+inFolder = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'in/')
+outFolder = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'out/')
 
-for img in os.listdir('./in/'):
+for img in os.listdir(inFolder):
 	print(f'Processing image \'{img}\'')
 
 	# get b64 encoded image
-	with open('./in/' + img, "rb") as f:
+	with open(inFolder + img, "rb") as f:
 		imgb64 = 'data:image/png;base64,' + str(base64.b64encode(f.read()))[2:-1]
 
 	# generate name for requests
@@ -49,5 +51,5 @@ for img in os.listdir('./in/'):
 	r.raw.decode_content = True
 
 	# write image to out folder
-	with open('out/' + img.split('.')[0] + '.jpg','wb') as f:
+	with open(outFolder + img.split('.')[0] + '.jpg','wb') as f:
 		shutil.copyfileobj(r.raw, f)
